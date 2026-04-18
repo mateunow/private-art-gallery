@@ -1,0 +1,67 @@
+{
+	"info": {
+		"_postman_id": "e8188e56-f668-4044-820a-b6a1027ad06d",
+		"name": "Zestaw 2",
+		"description": "Przygotowałem zestaw testów w Postmanie obejmujący:\n\n- poprawne zapytania\n    \n- błędne dane wejściowe\n    \n- przypadki brzegoweraz obsługę błędów API zewnętrznych",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39990053"
+	},
+	"item": [
+		{
+			"name": "Correct Search",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Too short search",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Too long search",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Incorrect characters",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Too large number of results",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Page wiki search",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Invalid wiki search",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
